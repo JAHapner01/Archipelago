@@ -158,7 +158,6 @@ rules_dict: dict[str, list[list[str]]] = {
         ],
         [
             grinch_items.events.MISSION_ITEMS_NOT_RANDOMIZED,
-            grinch_items.events.ADVANCED_LOGIC,
             grinch_items.gadgets.SLIME_SHOOTER,
             grinch_items.moves.SEIZE,
             grinch_items.moves.PANCAKE,
@@ -170,7 +169,6 @@ rules_dict: dict[str, list[list[str]]] = {
             grinch_items.gadgets.ROCKET_SPRING,
             grinch_items.moves.SEIZE,
             grinch_items.moves.MAX,
-            grinch_items.gadgets.SLIME_SHOOTER,
         ],
         [
             grinch_items.level_items.WV_HAMMER,
@@ -530,10 +528,9 @@ rules_dict: dict[str, list[list[str]]] = {
             grinch_items.events.MISSION_ITEMS_NOT_RANDOMIZED,
             grinch_items.moves.BAD_BREATH,
             grinch_items.gadgets.GRINCH_COPTER,
+            grinch_items.gadgets.ROCKET_SPRING,
             grinch_items.gadgets.ROTTEN_EGG_LAUNCHER,
             grinch_items.moves.MAX,
-            grinch_items.moves.PANCAKE,
-            grinch_items.moves.SNEAK,
         ],
     ],
     "WL - Squashing All Gifts": [
@@ -1251,6 +1248,11 @@ rules_dict: dict[str, list[list[str]]] = {
             grinch_items.gadgets.ROTTEN_EGG_LAUNCHER,
             grinch_items.gadgets.OCTOPUS_CLIMBING_DEVICE,
         ],
+        [
+            grinch_items.events.ADVANCED_LOGIC,
+            grinch_items.gadgets.OCTOPUS_CLIMBING_DEVICE,
+            grinch_items.moves.MAX,
+        ],
     ],
     "WL - Scout's Hut - Steal Scout's Hat": [
         [
@@ -1414,31 +1416,31 @@ rules_dict: dict[str, list[list[str]]] = {
     #         grinch_items.moves.PANCAKE,
     #     ],
     # ],
-    # "MC - 1st Crate Squashed": [
-    #     [
-    #         grinch_items.moves.PANCAKE,
-    #     ],
-    # ],
-    # "MC - 2nd Crate Squashed": [
-    #     [
-    #         grinch_items.moves.PANCAKE,
-    #     ],
-    # ],
-    # "MC - 3rd Crate Squashed": [
-    #     [
-    #         grinch_items.moves.PANCAKE,
-    #     ],
-    # ],
-    # "MC - 4th Crate Squashed": [
-    #     [
-    #         grinch_items.moves.PANCAKE,
-    #     ],
-    # ],
-    # "MC - 5th Crate Squashed": [
-    #     [
-    #         grinch_items.moves.PANCAKE,
-    #     ],
-    # ],
+    "MC - 1st Crate Squashed": [
+        [
+            grinch_items.moves.PANCAKE,
+        ],
+    ],
+    "MC - 2nd Crate Squashed": [
+        [
+            grinch_items.moves.PANCAKE,
+        ],
+    ],
+    "MC - 3rd Crate Squashed": [
+        [
+            grinch_items.moves.PANCAKE,
+        ],
+    ],
+    "MC - 4th Crate Squashed": [
+        [
+            grinch_items.moves.PANCAKE,
+        ],
+    ],
+    "MC - 5th Crate Squashed": [
+        [
+            grinch_items.moves.PANCAKE,
+        ],
+    ],
     "MC - Interact with the Telescope": [[]],
     "MC - I hate Whos!": [[]],
     "MC - I hate Christmas!": [[]],
